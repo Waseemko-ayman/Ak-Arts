@@ -125,6 +125,16 @@ ul {
     color: var(--second-color);
     background-color: var(--main-color);
 }
+
+@media (max-width: 426px) {
+    .text h1 {
+        font-size: 40px !important;
+    }
+    .text p {
+        font-size: 14px !important;
+    }
+}
+
 /* End Component */
 
 /******************************************************************************************************/
@@ -259,7 +269,7 @@ header .icons ul > li > a {
         content: "";
         position: absolute;
         right: 0;
-        top: -20px;
+        top: -19px;
         border-style: solid;
         border-color: transparent transparent var(--second-color) transparent;
         border-width: 10px;
